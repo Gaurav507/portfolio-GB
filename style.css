@@ -297,7 +297,7 @@ button{
     }
     .nav-links ul li{
         float: none;
-        border-bottom: solid 0.5px grey;
+/*         border-bottom: solid 0.5px grey; */
     }
     .nav-links ul li :hover{
         background-color: rgb(228, 227, 227);
