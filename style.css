@@ -1,0 +1,343 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("bgImg4.jpg");
+}
+/* .page{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+} */
+button{
+    cursor: pointer;
+}
+/* div{
+    border: solid;
+} */
+*{
+    transition: all .5s ease;
+}
+.navbar{
+    /* border: solid; */
+    display: flex;
+    width: 100%;
+    /* position: fixed; */
+}
+.nav-head{
+    width: 20%;
+    margin-top: 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-img{
+    width: 12vmin;
+    height: 12vmin;
+    border-radius: 100%;
+    cursor: pointer;
+}
+ .nav-links{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.nav-links ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+}
+.nav-links ul li{
+    float: left;
+    height: 5vw;
+}
+.nav-links ul li:hover{
+    background-color: rgb(206, 206, 206);
+}
+.nav-links ul li a, .contact-link{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5vmin;
+    text-decoration: none;
+    font-family: 'Abel';
+    font-size: 2.8vmin;
+    cursor: pointer;
+  }
+  .contact-link{
+    padding: 1vmin;
+    font-size: 3vmin;
+  }
+.nav-end{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.toggle-menu{
+    display: none;
+}
+/* navbar completed and starting section1 */
+
+#home{
+    padding-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.left{
+    /* border: solid; */
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Acme';
+}
+.text-content{
+    /* border: solid; */
+    margin-top: 10%;
+    margin-bottom: 25%;
+}
+.left p,h1,h3,hr,.myButtons{
+    margin: 0;
+    margin-left: 30%;
+}
+.left p{
+    font-size: 2vw;
+}
+.left h1{
+    font-size: 4vw;
+}
+.left h3{
+    font-size: 2.2vw;
+}
+.myButtons{
+    margin-top: 2vmin;
+}
+.cvButton,.hire-me{
+    font-size: 1.2vw;
+    padding: 1%;
+}
+.right{
+    width: 40%;
+}
+.right .frame{
+    height: 100%;
+    width: 100%;
+}
+.gauravPic{
+    width: 50vmin;
+    height: 50vmin;
+    border-radius: 100%;
+}
+
+/* home section over and staring the about section */
+#about{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: rgb(211, 206, 206);
+}
+#about p{
+    background-color: white;
+    border: solid ;
+    padding: 5%;
+    width: 50%;
+    margin: 3% auto;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+.about-content{
+    display: flex;
+    /* border: solid; */
+}
+#skills{
+    /* border: solid; */
+    padding: 5%;
+}
+#skills h1,#about h1{
+    font-family: 'Almarai';
+    font-size: 5vw;
+    margin-left: 10%;
+    color: black;
+}
+.container{
+    padding: 5% 20%;
+    /* border: solid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    background-color: white;
+    padding: 5%;
+    width: 20%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    transition: all .4s linear;
+    font-size: 1.5vw;
+    font-family: 'Akaya Kanadaka';
+}
+.card:hover{
+    box-shadow: 0 5px 10px 0 white, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+/* last section */
+
+.container2{
+    display: flex;
+    flex-direction: column;
+}
+.card2{
+    background-color: white;
+    padding: 1%;
+    width: 60%;
+    margin: auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    transition: all .4s linear;
+    font-size: 1.6vw;
+    font-family: 'Akaya Kanadaka';
+}
+.card2:hover{
+    box-shadow: 0 5px 10px 0 white, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    background-color: rgb(227, 226, 226);
+}
+#projects{
+    /* border: solid; */
+    margin: 0;
+    padding-top: 3%;
+    padding-bottom: 10%;
+    background-color: aliceblue;
+}
+#projects h2{
+    margin-left: 10%;
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer {
+    overflow: hidden;
+    background-color: rgb(31, 30, 30); 
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding: 2%;
+    padding-bottom: 5%;
+    /* border: white 3px solid; */
+    margin-left: 0%;
+    margin-bottom: 0;
+    margin-right: 0%;
+  }
+@media only screen and (max-width: 1190px) {
+    .nav-links ul li a, .contact-link{
+        padding: 2.5vmin;
+        font-size: 2.8vmin;
+      }
+  }
+  @media only screen and (max-width: 810px) {
+    #home .left{
+        width: 100%;
+        margin-bottom: 0;
+        /* border: solid; */
+        padding-bottom: 0;
+    }
+    #home .left .text-content{
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+    #home .right{
+        width: 100%;
+        /* border: solid; */
+        text-align: center;
+        margin: 0;
+    }
+    #about p{
+        width: 75%;
+    }
+    .card{
+        width: 60%;
+        font-size: 3vw;
+
+    }
+    .card2{
+        width: 80%;
+        font-size: 3vw;
+
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .navbar{
+        justify-content: space-around;
+    }
+    .toggle-menu{
+        display: flex;
+        align-items: flex-end;
+    }
+    .contact{
+        display: none;
+    }
+    .nav-head,.nav-end{
+        align-items: center;
+        margin: 2%;
+        height: 12vmin;
+    }
+    .nav-links{
+        margin-top: 16vmin;
+        display: none;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-links ul li{
+        float: none;
+        border-bottom: solid 0.5px grey;
+    }
+    .nav-links ul li :hover{
+        background-color: rgb(228, 227, 227);
+    }
+    .left p,h1,h3,hr,.myButtons{
+        margin-left: 20%;
+    }
+    .left p{
+        font-size: 4vw;
+    }
+    .left h1{
+        font-size: 8vw;
+    }
+    .left h3{
+        font-size: 5vw;
+    }
+    .myButtons{
+        margin-top: 2vmin;
+    }
+    .cvButton,.hire-me{
+        font-size: 3vw;
+        padding: 2%;
+    }
+    .card{
+        width: 80%;
+        font-size: 4vw;
+    }
+    #projects h2{
+        font-size: 4vw;
+    }
+  }
+
+  @media only screen and (max-width: 300px) {
+    #projects h2{
+        font-size: 6vw;
+    }  
+    .card2{
+          font-size: 5vw;
+      }
+    .nav-links ul li{
+        font-size: 10vw;
+    }
+  }
